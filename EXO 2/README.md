@@ -94,6 +94,6 @@ Une boîte de dialogue vous invite à sélectionner le fichier CSV. Le script af
 
 ## Notes
 
-- Les deux scripts fonctionnent avec un annuaire Active Directory **existant** (après promotion du premier contrôleur de domaine).
-- Le script de peuplement est **idempotent** : il peut être exécuté plusieurs fois sans erreur. Les utilisateurs et groupes déjà existants sont détectés et ne sont pas recréés.
+
+- Le script de peuplement peut être exécuté plusieurs fois et détecter les doublons.
 - Les comparaisons dans le script de peuplement sont **insensibles à la casse** (MARgueRite = marguerite).
